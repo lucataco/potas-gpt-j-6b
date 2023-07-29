@@ -1,6 +1,7 @@
 # Potassium GPT-J App
 
 This is a Potassium HTTP server, created with `banana init` CLI
+
 Implementation of [GPT-J](https://huggingface.co/EleutherAI/gpt-j-6b)
 
 ### Testing
