@@ -8,7 +8,7 @@ app = Potassium("my_app")
 # @app.init runs at startup, and loads models into the app's context
 @app.init
 def init():
-    MODEL_NAME = "togethercomputer/GPT-JT-6B-v1"
+    MODEL_NAME = "EleutherAI/gpt-j-6b"
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,

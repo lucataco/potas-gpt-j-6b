@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def download_model():
     # do a dry run of loading the huggingface model, which will download weights
-    MODEL_NAME = "togethercomputer/GPT-JT-6B-v1"
+    MODEL_NAME = "EleutherAI/gpt-j-6b"
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,

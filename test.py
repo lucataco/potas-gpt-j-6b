@@ -60,7 +60,7 @@ Label:''',
 # method argument ("/")to specify a
 # different route.
 t1 = time.time()
-result, meta = my_model.call("/", inputs3)
+result, meta = my_model.call("/", inputs)
 t2 = time.time()
 
 output = result["output"]
